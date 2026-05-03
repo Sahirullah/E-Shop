@@ -2,7 +2,7 @@ import './WhatsAppButton.css'
 import chatbtnImg from '../assets/chatbtn.png'
 
 export default function WhatsAppButton() {
-  const whatsappNumber = '+923479104637'
+  const whatsappNumber = '+923334188395'
   const message = 'Hi! I would like to know more about your products and services.'
 
   const handleWhatsAppClick = () => {

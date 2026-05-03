@@ -78,7 +78,7 @@ const bestSellers = [
 export default function Places() {
   const [activeTab, setActiveTab] = useState('best-sellers')
   const [showDropdown, setShowDropdown] = useState(false)
-  const whatsappNumber = '+923479104637'
+  const whatsappNumber = '+923334188395'
 
   const handleWhatsApp = (productName, price) => {
     const message = `Hi, I'm interested in ${productName} (${price})`

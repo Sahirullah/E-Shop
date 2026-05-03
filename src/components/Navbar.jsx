@@ -2,7 +2,7 @@ import './Navbar.css'
 import logoImg from '../assets/logo.png'
 
 export default function Navbar() {
-  const whatsappNumber = '+923479104637'
+  const whatsappNumber = '+923334188395'
   
   const handleContactClick = () => {
     const message = 'Hi! I would like to contact you.'

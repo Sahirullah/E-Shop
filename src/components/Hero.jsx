@@ -6,7 +6,7 @@ import watchImg from '../assets/watch_Hero-Section.jpg'
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  const whatsappNumber = '+923479104637'
+  const whatsappNumber = '+923334188395'
   const message = 'Hi! I would like to know more about your products and services.'
 
   const heroImages = [

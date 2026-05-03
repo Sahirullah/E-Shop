@@ -175,7 +175,7 @@ const productCategories = {
 export default function Products() {
   const [selectedCategory, setSelectedCategory] = useState('watches')
   const [selectedSubcategory, setSelectedSubcategory] = useState('all')
-  const whatsappNumber = '+923479104637'
+  const whatsappNumber = '+923334188395'
 
   const currentCategory = productCategories[selectedCategory]
   let filteredProducts = currentCategory.products
