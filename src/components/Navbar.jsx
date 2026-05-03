@@ -25,7 +25,7 @@ export default function Navbar() {
             <a href="#reviews" className="nav-link">Client Reviews</a>
           </li>
           <li className="nav-item">
-            <a href="#places" className="nav-link">Places</a>
+            <a href="#featured" className="nav-link">Featured</a>
           </li>
           <li className="nav-item">
             <button 

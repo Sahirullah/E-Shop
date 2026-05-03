@@ -16,7 +16,7 @@ export default function Footer() {
             <ul className="footer-links">
               <li><a href="#products">Products</a></li>
               <li><a href="#reviews">Reviews</a></li>
-              <li><a href="#places">Locations</a></li>
+              <li><a href="#featured">Featured</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>

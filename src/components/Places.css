@@ -63,6 +63,28 @@
   z-index: 10;
 }
 
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #FF4444;
+  color: white;
+  padding: 0.5rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  z-index: 11;
+  display: none;
+}
+
+.best-seller-card .discount-badge {
+  display: block;
+}
+
+.best-seller-card .featured-badge {
+  display: none;
+}
+
 .featured-rating {
   position: absolute;
   top: 10px;
@@ -108,7 +130,29 @@
   font-size: 1.3rem;
   font-weight: bold;
   color: #25D366;
-  margin: 0.5rem 1rem 1rem 1rem;
+  margin: 0.5rem 1rem 0.3rem 1rem;
+  padding: 0;
+}
+
+.original-price {
+  font-size: 0.9rem;
+  color: #999;
+  text-decoration: line-through;
+  margin: 0 1rem 0.5rem 1rem;
+  padding: 0;
+}
+
+.price-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sold-count {
+  font-size: 0.85rem;
+  color: #FF4444;
+  font-weight: 600;
+  margin: 0.3rem 1rem 0.8rem 1rem;
   padding: 0;
 }
 
