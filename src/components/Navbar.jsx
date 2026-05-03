@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="navbar-container">
         <div className="navbar-logo">
           <img src={logoImg} alt="Logo" className="logo-image" />
-          <span className="logo-text">DrugHome</span>
+          <span className="logo-text">ApnaShop</span>
         </div>
         <ul className="nav-menu">
           <li className="nav-item">

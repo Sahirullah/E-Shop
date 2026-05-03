@@ -1,43 +1,32 @@
 import './About.css'
+import logoImg from '../assets/logo.png'
 
 export default function About() {
   return (
     <section id="about" className="about">
       <div className="about-container">
-        <div className="about-content">
-          <h2 className="section-title">About Us</h2>
-          <p className="section-subtitle">Your Trusted Partner for Quality Products</p>
-          
-          <div className="about-text">
-            <p>
-              We are committed to providing the highest quality products at responsible prices. With years of experience in the industry, we've built a reputation for excellence and customer satisfaction.
-            </p>
-            <p>
-              Our mission is to make premium products accessible to everyone. We carefully curate our collection to ensure every item meets our strict quality standards.
-            </p>
+        <div className="about-wrapper">
+          {/* Left Side - Text Content */}
+          <div className="about-content">
+            <h2 className="section-title">About Apna Shop</h2>
+            <p className="section-subtitle">Your Trusted Partner for Quality Products</p>
+            
+            <div className="about-text">
+              <p>
+                Welcome to Apna Shop, your one-stop destination for premium rings, stylish watches, and long-lasting perfumes. We believe that quality and affordability should go hand in hand.
+              </p>
+              <p>
+                With years of experience in the luxury goods industry, we've built a reputation for excellence and customer satisfaction. Our mission is to make premium products accessible to everyone by offering competitive prices without compromising on quality.
+              </p>
+              <p>
+                Every product in our collection is carefully curated and tested to ensure it meets our strict quality standards. We take pride in delivering not just products, but an experience of trust and convenience.
+              </p>
+            </div>
           </div>
 
-          <div className="about-features">
-            <div className="feature-item">
-              <div className="feature-icon">✓</div>
-              <h3>Quality Assured</h3>
-              <p>Every product is carefully selected and tested</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">✓</div>
-              <h3>Best Prices</h3>
-              <p>Competitive pricing without compromising quality</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">✓</div>
-              <h3>Fast Delivery</h3>
-              <p>Quick and reliable shipping to your location</p>
-            </div>
-            <div className="feature-item">
-              <div className="feature-icon">✓</div>
-              <h3>24/7 Support</h3>
-              <p>Always here to help with your questions</p>
-            </div>
+          {/* Right Side - Logo Image */}
+          <div className="about-image">
+            <img src={logoImg} alt="Apna Shop Logo" className="about-logo" />
           </div>
         </div>
       </div>
