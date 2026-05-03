@@ -4,6 +4,7 @@ import About from './components/About'
 import Products from './components/Products'
 import Places from './components/Places'
 import Reviews from './components/Reviews'
+import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
 import './App.css'
@@ -17,6 +18,7 @@ function App() {
       <Products />
       <Places />
       <Reviews />
+      <FAQ />
       <Footer />
       <WhatsAppButton />
     </>
