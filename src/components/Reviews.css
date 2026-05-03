@@ -1,0 +1,168 @@
+.reviews {
+  padding: 4rem 2rem;
+  background: white;
+}
+
+.reviews-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.review-card {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 2rem;
+  border-left: 4px solid #667eea;
+  transition: all 0.3s ease;
+}
+
+.review-card:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.review-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+}
+
+.review-avatar {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.review-info {
+  flex-grow: 1;
+}
+
+.review-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.review-role {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.25rem 0 0 0;
+}
+
+.review-rating {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.review-text {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .reviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .review-card {
+    padding: 1.5rem;
+  }
+
+  .review-avatar {
+    font-size: 2rem;
+  }
+
+  .review-name {
+    font-size: 1rem;
+  }
+}
+
+/* Small Tablet */
+@media (max-width: 768px) {
+  .reviews {
+    padding: 3rem 1.5rem;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .review-card {
+    padding: 1.25rem;
+  }
+
+  .review-avatar {
+    font-size: 1.8rem;
+  }
+
+  .review-name {
+    font-size: 0.95rem;
+  }
+
+  .review-role {
+    font-size: 0.8rem;
+  }
+
+  .review-text {
+    font-size: 0.85rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .reviews {
+    padding: 2rem 1rem;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .review-card {
+    padding: 1rem;
+    border-left-width: 3px;
+  }
+
+  .review-header {
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .review-avatar {
+    font-size: 1.5rem;
+  }
+
+  .review-name {
+    font-size: 0.9rem;
+  }
+
+  .review-role {
+    font-size: 0.75rem;
+  }
+
+  .review-rating {
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .review-text {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}
