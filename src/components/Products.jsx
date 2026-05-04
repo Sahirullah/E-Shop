@@ -3,6 +3,7 @@ import './Products.css'
 import watchMale from '../assets/watch for male.jpeg'
 import powerWatchMale from '../assets/power watch , male, .jpeg'
 import powerWatchFemale from '../assets/power watch for female.jpeg'
+import powerFemalWatch from '../assets/power female watch .jpeg'
 import perfume1 from '../assets/perfum1.jpeg'
 import perfume2 from '../assets/perfum2.jpeg'
 import cacsoMale from '../assets/Cacso for male.jpeg'
@@ -37,7 +38,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$279.99',
         description: 'Elegant watch with diamond accents',
-        image: powerWatchFemale
+        image: powerFemalWatch
       },
       {
         id: 'w4',
