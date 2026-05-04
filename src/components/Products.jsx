@@ -7,7 +7,8 @@ import powerFemalWatch from '../assets/power female watch .jpeg'
 import watchCacsoMale from '../assets/watch Cacso for male.jpeg'
 import perfume1 from '../assets/perfum1.jpeg'
 import perfume2 from '../assets/perfum2.jpeg'
-import cacsoMale from '../assets/Cacso for male.jpeg'
+import ringCacsoMale from '../assets/ring_Hero-Section.jpg'
+import ringImage from '../assets/ring_Hero-Section.jpg'
 
 const productCategories = {
   watches: {
@@ -58,15 +59,6 @@ const productCategories = {
         price: 'PKR3000',
         description: 'Premium Cacso watch with elegant design',
         image: watchCacsoMale
-      },
-      {
-        id: 'w5',
-        name: 'Watch Cacso for Male',
-        category: 'watches',
-        subcategory: 'male',
-        price: 'PKR3000',
-        description: 'Premium Cacso watch with elegant design',
-        image: cacsoMale
       }
     ]
   },
@@ -81,7 +73,7 @@ const productCategories = {
         subcategory: 'female',
         price: 'PKR500',
         description: '18K gold with 1 carat diamond',
-        image: cacsoMale
+        image: ringImage
       },
       {
         id: 'r2',
@@ -90,7 +82,7 @@ const productCategories = {
         subcategory: 'male',
         price: 'PKR1200',
         description: 'Pure platinum classic band',
-        image: cacsoMale
+        image: ringImage
       },
       {
         id: 'r3',
@@ -99,7 +91,7 @@ const productCategories = {
         subcategory: 'female',
         price: 'PKR2000',
         description: 'Blue sapphire with diamond surround',
-        image: cacsoMale
+        image: ringImage
       },
       {
         id: 'r4',
@@ -108,7 +100,7 @@ const productCategories = {
         subcategory: 'male',
         price: '$149.99',
         description: 'Classic sterling silver design',
-        image: cacsoMale
+        image: ringImage
       }
     ]
   },
@@ -165,7 +157,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$199.99',
         description: '18K gold delicate chain',
-        image: cacsoMale
+        image: ringImage
       },
       {
         id: 'n2',
@@ -174,7 +166,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$249.99',
         description: 'South Sea pearl with gold setting',
-        image: cacsoMale
+        image: ringImage
       },
       {
         id: 'n3',
@@ -183,7 +175,7 @@ const productCategories = {
         subcategory: 'male',
         price: '$129.99',
         description: 'Sterling silver cross design',
-        image: cacsoMale
+        image: ringImage
       },
       {
         id: 'n4',
@@ -192,7 +184,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$399.99',
         description: '0.5 carat diamond pendant',
-        image: cacsoMale
+        image: ringImage
       }
     ]
   }
