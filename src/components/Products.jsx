@@ -41,11 +41,11 @@ const productCategories = {
       },
       {
         id: 'w4',
-        name: 'Women\'s Rose Gold Watch',
+        name: 'Power Female Watch',
         category: 'watches',
         subcategory: 'female',
         price: '$249.99',
-        description: 'Sophisticated rose gold timepiece',
+        description: 'Advanced smartwatch with fitness tracking',
         image: powerWatchFemale
       }
     ]
