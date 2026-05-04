@@ -268,7 +268,8 @@ export default function Products() {
                 className="product-btn"
                 onClick={() => handleWhatsApp(product.name, product.price)}
               >
-                💬 WhatsApp
+                <span className="btn-icon">💬</span>
+                WhatsApp
               </button>
             </div>
           ))}

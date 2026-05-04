@@ -150,8 +150,12 @@
 .product-description {
   color: #666;
   font-size: 0.8rem;
-  margin: 0 0.75rem 1rem 0.75rem;
+  margin: 0 0.75rem 0.75rem 0.75rem;
   flex-grow: 1;
+}
+
+.product-btn-wrapper {
+  padding: 0 0.75rem 0.75rem 0.75rem;
 }
 
 .product-price {
@@ -164,7 +168,7 @@
 
 .product-btn {
   width: auto;
-  margin: 0 auto 0.75rem auto;
+  margin: 0 auto;
   padding: 0.5rem 1.2rem;
   background: #25D366;
   color: white;
@@ -190,6 +194,10 @@
 .product-btn:active {
   transform: translateY(0px);
   box-shadow: 0 1px 4px rgba(37, 211, 102, 0.3);
+}
+
+.btn-icon {
+  font-size: 1rem;
 }
 
 .whatsapp-icon {
