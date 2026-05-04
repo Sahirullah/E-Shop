@@ -22,3 +22,24 @@ body {
 main {
   flex: 1;
 }
+
+/* Fraktur Bold for Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'UnifrakturMaguntia', serif;
+  font-weight: 700;
+}
+
+/* Monospace for specific elements */
+.logo-text,
+.section-title,
+.hero-title {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+
+/* Alternative Fraktur style for decorative elements */
+.navbar-logo .logo-text {
+  font-family: 'UnifrakturMaguntia', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}

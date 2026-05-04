@@ -42,6 +42,8 @@
 .logo-text {
   font-size: 1.5rem;
   letter-spacing: 1px;
+  font-family: 'Cardo', serif;
+  font-weight: 700;
 }
 
 .nav-menu {
