@@ -1,5 +1,11 @@
 import { useState } from 'react'
 import './Products.css'
+import watchMale from '../assets/watch for male.jpeg'
+import powerWatchMale from '../assets/power watch , male, .jpeg'
+import powerWatchFemale from '../assets/power watch for female.jpeg'
+import perfume1 from '../assets/perfum1.jpeg'
+import perfume2 from '../assets/perfum2.jpeg'
+import cacsoMale from '../assets/Cacso for male.jpeg'
 
 const productCategories = {
   watches: {
@@ -13,7 +19,7 @@ const productCategories = {
         subcategory: 'male',
         price: '$199.99',
         description: 'Elegant stainless steel watch with leather strap',
-        image: '⌚'
+        image: watchMale
       },
       {
         id: 'w2',
@@ -22,7 +28,7 @@ const productCategories = {
         subcategory: 'male',
         price: '$349.99',
         description: 'Premium chronograph with sapphire crystal',
-        image: '⌚'
+        image: powerWatchMale
       },
       {
         id: 'w3',
@@ -31,7 +37,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$279.99',
         description: 'Elegant watch with diamond accents',
-        image: '⌚'
+        image: powerWatchFemale
       },
       {
         id: 'w4',
@@ -40,7 +46,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$249.99',
         description: 'Sophisticated rose gold timepiece',
-        image: '⌚'
+        image: powerWatchFemale
       }
     ]
   },
@@ -55,7 +61,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$599.99',
         description: '18K gold with 1 carat diamond',
-        image: '💍'
+        image: cacsoMale
       },
       {
         id: 'r2',
@@ -64,7 +70,7 @@ const productCategories = {
         subcategory: 'male',
         price: '$449.99',
         description: 'Pure platinum classic band',
-        image: '💍'
+        image: cacsoMale
       },
       {
         id: 'r3',
@@ -73,7 +79,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$399.99',
         description: 'Blue sapphire with diamond surround',
-        image: '💍'
+        image: cacsoMale
       },
       {
         id: 'r4',
@@ -82,7 +88,7 @@ const productCategories = {
         subcategory: 'male',
         price: '$149.99',
         description: 'Classic sterling silver design',
-        image: '💍'
+        image: cacsoMale
       }
     ]
   },
@@ -97,7 +103,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$89.99',
         description: 'Floral and musky fragrance, 100ml',
-        image: '🌸'
+        image: perfume1
       },
       {
         id: 'p2',
@@ -106,7 +112,7 @@ const productCategories = {
         subcategory: 'male',
         price: '$79.99',
         description: 'Woody and spicy notes, 100ml',
-        image: '🌸'
+        image: perfume2
       },
       {
         id: 'p3',
@@ -115,7 +121,7 @@ const productCategories = {
         subcategory: 'male',
         price: '$74.99',
         description: 'Fresh aquatic fragrance, 100ml',
-        image: '🌸'
+        image: perfume2
       },
       {
         id: 'p4',
@@ -124,7 +130,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$84.99',
         description: 'Pure rose with vanilla base, 100ml',
-        image: '🌸'
+        image: perfume1
       }
     ]
   },
@@ -139,7 +145,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$199.99',
         description: '18K gold delicate chain',
-        image: '✨'
+        image: cacsoMale
       },
       {
         id: 'n2',
@@ -148,7 +154,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$249.99',
         description: 'South Sea pearl with gold setting',
-        image: '✨'
+        image: cacsoMale
       },
       {
         id: 'n3',
@@ -157,7 +163,7 @@ const productCategories = {
         subcategory: 'male',
         price: '$129.99',
         description: 'Sterling silver cross design',
-        image: '✨'
+        image: cacsoMale
       },
       {
         id: 'n4',
@@ -166,7 +172,7 @@ const productCategories = {
         subcategory: 'female',
         price: '$399.99',
         description: '0.5 carat diamond pendant',
-        image: '✨'
+        image: cacsoMale
       }
     ]
   }
@@ -242,7 +248,7 @@ export default function Products() {
           {filteredProducts.map(product => (
             <div key={product.id} className="product-card">
               <div className="product-image">
-                <span className="product-emoji">{product.image}</span>
+                <img src={product.image} alt={product.name} />
               </div>
               <h3 className="product-name">{product.name}</h3>
               <p className="product-price">{product.price}</p>
