@@ -4,6 +4,7 @@ import watchMale from '../assets/watch for male.jpeg'
 import powerWatchMale from '../assets/power watch , male, .jpeg'
 import powerWatchFemale from '../assets/power watch for female.jpeg'
 import powerFemalWatch from '../assets/power female watch .jpeg'
+import watchCacsoMale from '../assets/watch Cacso for male.jpeg'
 import perfume1 from '../assets/perfum1.jpeg'
 import perfume2 from '../assets/perfum2.jpeg'
 import cacsoMale from '../assets/Cacso for male.jpeg'
@@ -18,7 +19,7 @@ const productCategories = {
         name: 'Classic Men\'s Watch',
         category: 'watches',
         subcategory: 'male',
-        price: '$199.99',
+        price: 'PKR 15000',
         description: 'Elegant stainless steel watch with leather strap',
         image: watchMale
       },
@@ -27,7 +28,7 @@ const productCategories = {
         name: 'Luxury Men\'s Chronograph',
         category: 'watches',
         subcategory: 'male',
-        price: '$349.99',
+        price: 'PKR2000',
         description: 'Premium chronograph with sapphire crystal',
         image: powerWatchMale
       },
@@ -36,7 +37,7 @@ const productCategories = {
         name: 'Women\'s Diamond Watch',
         category: 'watches',
         subcategory: 'female',
-        price: '$279.99',
+        price: 'PKR2000',
         description: 'Elegant watch with diamond accents',
         image: powerFemalWatch
       },
@@ -45,9 +46,27 @@ const productCategories = {
         name: 'Power Female Watch',
         category: 'watches',
         subcategory: 'female',
-        price: '$249.99',
+        price: 'PKR2000',
         description: 'Advanced smartwatch with fitness tracking',
         image: powerWatchFemale
+      },
+      {
+        id: 'w5',
+        name: 'Watch Cacso for Male',
+        category: 'watches',
+        subcategory: 'male',
+        price: 'PKR3000',
+        description: 'Premium Cacso watch with elegant design',
+        image: watchCacsoMale
+      },
+      {
+        id: 'w5',
+        name: 'Watch Cacso for Male',
+        category: 'watches',
+        subcategory: 'male',
+        price: 'PKR3000',
+        description: 'Premium Cacso watch with elegant design',
+        image: cacsoMale
       }
     ]
   },
@@ -60,7 +79,7 @@ const productCategories = {
         name: 'Gold Engagement Ring',
         category: 'rings',
         subcategory: 'female',
-        price: '$599.99',
+        price: 'PKR500',
         description: '18K gold with 1 carat diamond',
         image: cacsoMale
       },
@@ -69,7 +88,7 @@ const productCategories = {
         name: 'Platinum Wedding Band',
         category: 'rings',
         subcategory: 'male',
-        price: '$449.99',
+        price: 'PKR1200',
         description: 'Pure platinum classic band',
         image: cacsoMale
       },
@@ -78,7 +97,7 @@ const productCategories = {
         name: 'Sapphire Statement Ring',
         category: 'rings',
         subcategory: 'female',
-        price: '$399.99',
+        price: 'PKR2000',
         description: 'Blue sapphire with diamond surround',
         image: cacsoMale
       },
