@@ -7,7 +7,6 @@ import powerFemalWatch from '../assets/power female watch .jpeg'
 import watchCacsoMale from '../assets/watch Cacso for male.jpeg'
 import perfume1 from '../assets/perfum1.jpeg'
 import perfume2 from '../assets/perfum2.jpeg'
-import ringCacsoMale from '../assets/ring_Hero-Section.jpg'
 import ringImage from '../assets/ring_Hero-Section.jpg'
 
 const productCategories = {
